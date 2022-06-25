@@ -1,0 +1,42 @@
+/*
+AO PREENCHER ESSE CABEÇALHO COM O MEU NOME E O MEU NÚMERO USP, 
+  DECLARO QUE SOU O ÚNICO AUTOR E RESPONSÁVEL POR ESSE PROGRAMA. 
+  TODAS AS PARTES ORIGINAIS DESSE EXERCÍCIO PROGRAMA (EP) FORAM 
+  DESENVOLVIDAS E IMPLEMENTADAS POR MIM SEGUINDO AS INSTRUÇÕES
+  DESSE EP E QUE PORTANTO NÃO CONSTITUEM DESONESTIDADE ACADÊMICA
+  OU PLÁGIO.  
+  DECLARO TAMBÉM QUE SOU RESPONSÁVEL POR TODAS AS CÓPIAS
+  DESSE PROGRAMA E QUE EU NÃO DISTRIBUI OU FACILITEI A
+  SUA DISTRIBUIÇÃO. ESTOU CIENTE QUE OS CASOS DE PLÁGIO E
+  DESONESTIDADE ACADÊMICA SERÃO TRATADOS SEGUNDO OS CRITÉRIOS
+  DIVULGADOS NA PÁGINA DA DISCIPLINA.
+  ENTENDO QUE EPS SEM ASSINATURA NÃO SERÃO CORRIGIDOS E,
+  AINDA ASSIM, PODERÃO SER PUNIDOS POR DESONESTIDADE ACADÊMICA.
+Nome: Luiz Eduardo Tojal Ramos Santos
+NUSP: 11764386
+TURMA: 3
+Prof.: Alair 
+*/
+
+#include <stdio.h>
+
+int main() {
+
+    int frequencia=0;
+    int n_da_serie=1;
+    int n_avaliado;
+
+    scanf("%d", & n_avaliado);
+
+    
+    while (n_da_serie != 0){
+        scanf("%d", & n_da_serie);
+        if (n_da_serie == n_avaliado){
+            frequencia =  frequencia + 1; 
+        }
+    } 
+    printf ("%d", frequencia);
+
+
+    return 0;
+}
